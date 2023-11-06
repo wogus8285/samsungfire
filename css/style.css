@@ -237,14 +237,28 @@ body{
 }
 
 .banner .container{
+    width: 810px;
     height: 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.banner .container p{}
+.banner .container p{
+    color: #3085E0;
+}
+.banner .container h3{
+    font-size: 28px;
+    font-weight: 800;
+}
+.banner .container p:last-child{
+    color: #111;
+
+}
 
 .banner div img{
     width: 74px;
 }
+
+/*  */
+
