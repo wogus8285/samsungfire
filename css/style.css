@@ -34,90 +34,23 @@ body{
 }
 
 
-/* 헤더 */
-    /* top */
-.header{
-    background-color: #3085E0;
-    height: 150px;
-    color: #fff;
-    border-bottom: 0.1px solid #fff;
-}
-
-.top{
-    height: 40px;
-    border-bottom: 0.1px solid #fff;
-}
-
-.top .container {
-    display: flex;
-    gap: 16px;
-    align-items: center;
-}
-
-.top .container .gnb{
-    height: 40px;
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    margin-left: auto;
-}
-
-.top .container .btn{
-    display: block;
-    height: 26px;
-    line-height: 26px;
-    margin-right: 0;
-
-    background-color: #fff;
-    color: #3085E0;
-    padding: 1px 11px;
-    border-radius: 12px;
-}
-
-    /* nav */
-
-.nav .logo img{
-    width: 240px;
-    height: 54px;
-}
-
-.nav{
-    height: 110px;
-    display: flex;
-    align-items: center;
-}
-
-.nav .gnb{
-    display: flex;
-    gap: 48px;
-    margin-left: 230px;
-}
-
-.nav .icon{
-    display: block;
-    margin-left: auto;
-}
-
-.nav .icon i{
-    width: 43px;
-    margin-right: 20px;
-}
 
 
 
-/* section1 */
-.section1{
+/* hero */
+.hero{
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
     height: 710px;
     background-color: #3085E0;
 }
 
-.section1 .title_wrap{
+.hero .title_wrap{
     display: flex;
     justify-content: space-between;
     position: relative;
 }
 
-.section1 .title_wrap h2{
+.hero .title_wrap h2{
     color: #fff;
     font-size: 51px;
     font-weight: 500;
@@ -125,64 +58,15 @@ body{
     padding-top: 87px;
 }
 
-    /* slider */
-.slider{
-    display: flex;
-    margin-top: 0px;
-}
-
-.slider .xi-angle-left.xi-2x{
-    position: absolute;
-    top: 0px;
-    left: 665px;
-
-}
-
-.slider i{
-    padding-top: 124px;
-    color: #74AFEB;
-}
-
-.slider .slides .slide{
-    display: flex;
-    gap: 5px;
-}
-
-.slider .slides .slide .text_box{
-    padding-top: 110px;
-    font-size: 20px;
-    line-height: 1.5;
-    letter-spacing: 0.1px;
-    text-align: right;
-    color: #fff;
-}
-
-.slider .slides .slide .text_box .btn{
-    width: 56px;
-    height: 22px;
-    background-color: #27629E;
-    font-size: 14px;
-    border-radius: 11px;
-    margin-left: auto;
-    margin-top: 20px;
-}
-
-.slider .slides .slide .text_box{
-
-}
-
-.slider .slides img{
-    width: 100px;
-    padding-top: 98px;
-}
+    /* 슬라이더 */
 
     /* items */
-.section1 .items{
+.hero .items{
     display: flex;
     gap: 19px;
 }
 
-.section1 .item{
+.hero .item{
     width: 580px;
     height: 370px;
     border-radius: 8px;
@@ -190,12 +74,12 @@ body{
     margin-top: 56px ;
 }
 
-.section1 .item:last-child {
+.hero .item:last-child {
     display: flex;
     justify-content: space-between;
 }
 
-.section1 .item:last-child p{
+.hero .item:last-child p{
     margin-top: 37px;
     margin-left: 58px;
     font-size: 28px;
@@ -204,27 +88,28 @@ body{
 
 }
 
-.section1 .item:last-child .btn{
+.hero .item:last-child .btn{
     display: block;
     width: 251px;
     height: 57px;
     text-align: center;
     line-height: 57px;
     border: 1px solid #3085E0;
+    color: #3085E0;
     border-radius: 5px;
     margin-left: 60px;
     margin-bottom: 9px;
 }
-.section1 .item:last-child .btn.filled{
+.hero .item:last-child .btn.filled{
     background-color: #3085E0;
     color: #fff;
 }
 
 
-.section1 .item:last-child {
+.hero .item:last-child {
 }
 
-.section1 .item:last-child img{
+.hero .item:last-child img{
     width: 221px;
     margin-top: 41px;
 }
@@ -260,5 +145,194 @@ body{
     width: 74px;
 }
 
-/*  */
+/* title */
+.title h2{
+    text-align: center;
+    font-weight: 600;
+    font-size: 42px;
+    letter-spacing: -0.5px;
+    padding: 105px 0;
+}
 
+/* lnb */
+.lnb{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+    color: rgba(1, 1, 1, 0.6);
+    padding: 0 122.5px;
+    margin-bottom: 63px;
+    font-size: 32px;
+}
+
+.lnb li.active{
+    color: #111;
+    border-bottom:3px solid #111  ;
+}
+
+/* section */
+
+    /* section .item1 */
+
+.section {
+    padding-bottom: 128px;
+}    
+
+.section .item1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 55px;
+}
+
+.section .item1 .titles p{
+    color: #3085E0;
+    font-size: 22px;
+    letter-spacing: -0.5px;
+}
+
+.section .item1 .titles h3{
+    font-size: 36px;
+    font-weight: 600;
+}
+.section .item1 .titles p:last-child{
+    font-size: 21px;
+    color: #757575;
+    
+}
+.section .item1 .photo img {
+    width: 126px;
+}
+
+.section .item2 .box{
+    width: 377px;
+    height: 176px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 59px rgba(0, 0, 0, 0.20);
+}
+
+
+.section .item2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24.5px;
+}
+
+
+.section .item2 .box .text_box{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.section .item2 .box h4{
+    font-size: 22px;
+}
+
+.section .item2 .box span{
+    font-size: 17px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.section .item2 .text_box p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #727981;
+    padding-top: 19px;
+    line-height: 1.2;
+    padding-right: 40px;
+}
+
+.section .item2 .text_box p.add{
+    padding-top: 8px;
+    color:#3085E0;
+    font-size: 13px;
+}
+
+
+.section .item2 .box{}
+
+
+
+.section .item1 .titles {}
+.section .item1 .titles {}
+
+
+
+.section{}
+.section{}
+.section{}
+.section{}
+.section{}
+.section{}
+.section{}
+.section{}
+.section{}
+.section{}
+.section{}
+
+
+
+
+
+
+
+
+/* footer */
+
+.footer{
+    height: 315px;
+    background-color: #2A292E;
+    color: #fff;
+}
+
+.footer p{
+    opacity: 0.6;
+}
+
+.footer .f_gnb{
+    height: 45px;
+    background-color: #fff;
+    color: #111;
+}
+
+.footer .f_gnb .container{}
+
+.footer .f_gnb{}
+.footer .f_gnb{}
+
+
+
+.footer > .container{
+    display: flex;
+    height: 270px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+
+.footer .f_logo{
+    
+}
+
+
+
+.footer > .container{}
+.footer > .container{}
+.footer > .container{}
+.footer > .container{}
+.footer > .container{}
+.footer > .container{}
+
+
+.footer{}
+.footer{}
+.footer{}
+.footer{}
+.footer{}
+.footer{}
+.footer{}
+.footer{}
+.footer{}

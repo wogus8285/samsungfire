@@ -1,0 +1,93 @@
+/* 헤더 */
+
+.header{
+    width: 100%;
+    background-color: #3085E0;
+    height: 150px;
+    color: #fff;
+}
+
+.header.active{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+/* top */
+
+.top{
+    height: 40px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.top .container {
+    height: 40px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.top .container .top_menu{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: auto;
+}
+
+.top .container .btn{
+    display: block;
+    height: 26px;
+    line-height: 26px;
+    margin-right: 0;
+
+    background-color: #fff;
+    color: #3085E0;
+    padding: 1px 11px;
+    border-radius: 99px;
+}
+
+/* nav */
+.nav{
+    height: 110px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+
+.nav .logo img{
+    width: 240px;
+    height: 54px;
+}
+
+.nav .gnb{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    margin-left: 230px;
+}
+
+.nav .gnb > li{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav .gnb > li > a {
+    display: block;
+    height: 110px;
+    line-height: 110px;
+}
+
+.nav .icon{
+    display: block;
+    margin-left: auto;
+}
+
+.nav .icon i{
+    width: 43px;
+    margin-right: 20px;
+}

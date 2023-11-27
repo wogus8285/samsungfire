@@ -1,0 +1,49 @@
+.slider{
+    display: flex;
+    margin-top: 0px;
+}
+
+.slider .xi-angle-left.xi-2x{
+    position: absolute;
+    top: 0px;
+    left: 665px;
+
+}
+
+.slider i{
+    padding-top: 124px;
+    color: #74AFEB;
+}
+
+.slider .slides .slide{
+    display: flex;
+    gap: 5px;
+}
+
+.slider .slides .slide .text_box{
+    padding-top: 110px;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 0.1px;
+    text-align: right;
+    color: #fff;
+}
+
+.slider .slides .slide .text_box .btn{
+    width: 56px;
+    height: 22px;
+    background-color: #27629E;
+    font-size: 14px;
+    border-radius: 11px;
+    margin-left: auto;
+    margin-top: 20px;
+}
+
+.slider .slides .slide .text_box{
+
+}
+
+.slider .slides img{
+    width: 100px;
+    padding-top: 98px;
+}
