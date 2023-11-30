@@ -4,19 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>삼성화재(copy)</title>
-  
-  
+    
+    <!-- 초기화 -->
+    <link rel="stylesheet" href="../css/reset.css">
+    
+    <!-- css 남꺼 -->
+    <!-- xeicon -->
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+    <!-- slick slider -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+    <!-- css 내꺼 -->
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/slide.css">
   
-  
-
-
+    <!-- 제이쿼리 -->
     <script src="../script/jquery-3.7.1.js"></script>
+
+    <!-- 슬릭슬라이드 -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
     
+
 </head>
 <body>
     <div class="wrap">
@@ -26,37 +38,74 @@
 
         <div class="hero">
             <div class="container">
+             
                 <div class="title_wrap">
                     <h2>무엇을 <br> 지켜드릴까요?</h2>
 
                     <div class="slider">
-                        
+
                         <div class="slides">
-                            <div class="slide">
+                            <div class="slide slide_01">
+                                <a href="#">
+                                <div class="text_box">
+                                    <p>친구에게 소개받는 분이<br>자동차보험료 확인 시, 스벅 커피 2잔 지급!</p>
+                                </div>
+                                    <img src="../image/hero_slide/slide1.png" alt="">
+                                </a>
+                            </div>
+                          
+                            <div class="slide slide_02">
+                                <a href="#">
+                                <div class="text_box">
+                                    <p>초간단 보장분석 이벤트<br>내 보험 점수는 몇 점?</p>
+                                </div>
+                                    <img src="../image/hero_slide/slide2.png" alt="">
+                                </a>
+                            </div>
+                          
+                            <div class="slide slide_03">
+                                <a href="#">
                                 <div class="text_box">
                                     <p>똑똑한 반려생활을 위한 펫 커뮤니티<br>‘O모O모(오모오모)’에서 기다려요!</p>
                                 </div>
-                                <a href="#"><img src="../image/header_contents_slide.png" alt=""></a>
+                                    <img src="../image/hero_slide/slide3.png" alt="">
+                                </a>
+                            </div>
+
+                            <div class="slide slide_04">
+                                <a href="#">
+                                <div class="text_box">
+                                    <p>O모O모 하우스에서<br>다양한 혜택을 받으세요!</p>
+                                </div>
+                                    <img src="../image/hero_slide/slide4.png" alt="">
+                                </a>
                             </div>
                         </div>
+
                         
                         <div class="control">
-                            <p>1 / 4</p>
-                            <i class="xi-pause"></i>
-                            <div class="btns">
-                                <i class="xi-angle-left xi-2x"></i>
-                                <i class="xi-angle-right xi-2x"></i>
+                            <div class="btn slide">
+                                <i class="xi-angle-left xi-2x left"></i>
+                                <i class="xi-angle-right xi-2x right"></i>
+                            </div>
+
+                            <div class="btn pause">
+                                <p>1/4</p>
+                                <i class="xi-pause"></i>
                             </div>
                         </div>
-                    
-                    
                     </div>
-
-
                 </div>
 
+                <div class="items"></div>
+
                 <div class="items">
-                    <div class="item"></div>
+                    <div class="item">
+                        <ul class="hero_category">
+                            <!-- <li><a href=""><div></div></a></li> -->
+                        </ul>
+                    </div>
+
                     <div class="item">
                         <div class="left">
                             <p>안녕하세요 <br> 로그인 해주세요</p>
@@ -69,10 +118,12 @@
                             <img src="../image/header_login_bg.png" alt="">
                         </div>
                     </div>
+
                 </div>
             </div>            
         </div>
 
+        <!-- 배너 -->
         <div class="banner">
             <div class="container">
                <div class="text_box">
@@ -84,19 +135,26 @@
             </div>
         </div>
 
+
+        <!-- brfore section -->
+
         <div class="container">
-            
             <div class="title">
                 <h2>삼성화재 다이렉트 보험 상품</h2>
             </div>
+        </div>
 
+        <div class="lnb_wrap">
             <ul class="lnb">
                 <li class="active">자동차</li>                  
                 <li>건강</li>                  
-                <li>펫</li>                  
+                <li>반려동물</li>                  
                 <li>저축</li>                  
             </ul>
+        </div>
 
+            <!-- section_1 -->
+        <div class="container">
             <div class="section">
                 <div class="item1">
                     <div class="titles">
@@ -200,7 +258,7 @@
             <div class="section">
                 <div class="item1">
                     <div class="titles">
-                        <p>펫</p>
+                        <p>반려동물</p>
                         <h3>아프기 전에 준비하는 우리집 막내를 위한 보험</h3>
                         <p>(강아지, 고양이)</p>
                     </div>
@@ -259,10 +317,10 @@
             </div>
 
             <!-- 섹션 라스트 차일드 -->
-            <div class="section">
-                
-
-            </div>
+            <!-- <div class="section">
+                        
+            </div> -->
+        
 
         </div>
 
@@ -274,13 +332,14 @@
 
 
         <div class="footer">
-            <div class="f_gnb">
+            <!-- <div class="f_gnb">
                 <div class="container">
                     <p>다이렉트 SNS</p>
                 </div>
-            </div>
+            </div> -->
 
             <div class="container">
+
                 <div class="left">
                     <div class="privacy">
                         <p>상품공시 | 보험가격공시 | 보호금융상품등록부 | 회원가입약관 | 소비자보호센터 |  개인정보관리책임자 | <b>개인정보처리방침</b></p>
@@ -301,49 +360,170 @@
                 </div>
 
                 <div class="right">
-
                     <div class="call_center">
                         <div class="item">
                             <h5>삼성화재 고객콜센터</h5>
-                           <p>긴급출동/사고접수</p>
+                            <p>긴급출동/사건접수</p>
                         </div>
+
                         <div class="item">
-                            <h5>삼성화재 고객콜센터</h5>
-                           <p>긴급출동/사고접수</p>
+                            <h5>다이렉트 고객센터</h5>
+                            <p>인터넷가입/계약변경</p>
                         </div>
+
                         <div class="item">
-                            <h5>삼성화재 고객콜센터</h5>
-                           <p>긴급출동/사고접수</p>
+                            <h5>전화가입 고객센터</h5>
+                            <p>자동차보험 가입전용</p>
                         </div>
                     </div>
 
                     <div class="call_number">
                         <div class="item">
                             <h5>1588-5114</h5>
-                           <p>(365일 24시간운영)</p>
+                            <p>(365일 24시간운영)</p>
                         </div>
                         <div class="item">
-                            <h5>1588-5114</h5>
-                           <p>(365일 24시간운영)</p>
+                            <h5>1577-3339</h5>
+                            <p>(평일9시 ~ 18시)</p>
                         </div>
                         <div class="item">
-                            <h5>1588-5114</h5>
-                           <p>(365일 24시간운영)</p>
+                            <h5>1600-5008</h5>
+                            <p>(평일9시 ~ 18시)</p>
                         </div>
                     </div>
                 </div>
+                
             </div>
         </div>
+
     </div>
 
-
+ 
+  
 
     <script>
 
         $(function(){
-            //헤더 inc
+            // // # 헤더 inc
             $('.header_wrap').load('../inc/header.html')
-        })
+
+            
+            // // # hero 슬라이더
+            var heroSlides = $('.hero .slides')
+
+            heroSlides.slick({
+
+                autoplay: true,
+                autoplaySpeed : 2000,
+
+                prevArrow: $('.control .left'),
+                nextArrow: $('.control .right'),
+            
+            })
+                // slider 일시정지.
+            $('.btn.pause i').click(function(){
+                if(
+                $(this).hasClass('xi-pause')
+                ){
+                    $(this).removeClass('xi-pause').addClass('xi-play')
+                    heroSlides.slick('slickPause')
+                }else{
+                    $(this).removeClass('xi-play').addClass('xi-pause')
+                    heroSlides.slick('slickPlay')
+                }
+            })
+
+            // slider 숫자
+            $('.hero .slides').on('beforeChange', function(event, slick, currentSlide, nextSlide){
+            // console.log(event);
+            $('.control .btn.pause p').text(`${nextSlide + 1}/${slick.slideCount}`)
+
+            })
+
+        
+            // hero category markup
+            const heroItems = [
+            {href:'#', category:'자동차'},
+            {href:'#', category:'운전자'},
+            {href:'#', category:'실손'},
+            {href:'#', category:'자녀'},
+            {href:'#', category:'질병'},
+            {href:'#', category:'치아'},
+            {href:'#', category:'검진'},
+            {href:'#', category:'화재'},
+            {href:'#', category:'여행'},
+            {href:'#', category:'레저'},
+            {href:'#', category:'저축'},
+            {href:'#', category:'펫'},
+            ]
+
+            heroItems.forEach(item => {
+                // console.log(item)
+                var row = `<li><a href="${item.href}">
+                    <p>${item.category}</p>
+                    </a></li>`   
+                $('.hero_category').append(row)
+            });
+            
+
+            // 아래는 화살표 함수를 안 쓸 경우임.
+            // heroItems.forEach(function(item) {
+            //     console.log(item)
+            // })
+            // heroItems.forEach(item => {
+            //     console.log(item)
+            // })
+            
+
+            // # hero style css
+            var heroImgs = $('.hero_category li a')
+
+            heroImgs.each((index, item) => {
+                var X = index % 4 * -60
+                var Y = Math.floor(index / 4) * -60
+                $(item).css('background-position', `${X}px ${Y}px`);
+            })
+
+
+            // // # lnb_wrap 스티키 넣기
+            // 여긴 자바스크립트
+            // const lnbWrap = document.querySelector('.lnb_wrap')
+            // // console.log(lnbWrap);
+            // window.addEventListener('scroll', function(){
+            //     lnbWrap.classList.toggle('sticky', window.scrollY > 980)
+            //     // console.log(window.scrollY); 
+            // })
+            
+            // 제이쿼리
+            $(window).scroll(function(){
+                if($(window).scrollTop() >= 980){
+                    $('.lnb_wrap').addClass('sticky')
+                }else{
+                    $('.lnb_wrap').removeClass('sticky')
+                }
+            })
+
+            // // # lnb li.active 넣기
+            $('.lnb li').click(function(){
+                $('.lnb li').removeClass('active')
+                $(this).addClass('active')
+
+                if(){}
+            })
+
+            // lnb에 액티브 들어가면 스크롤되기
+            
+
+
+
+
+
+        
+    
+    
+    
+    
+    })
 
     </script>
 

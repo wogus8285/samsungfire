@@ -1,49 +1,114 @@
-.slider{
+/* hero_slide */
+
+
+.hero .slider{
+    position: relative;
+    margin-top:30px;
+    /* background-color: red; */
+    width: 543px;
+    /* width: 560px; */
+}
+
+.hero .slides .slide{
     display: flex;
-    margin-top: 0px;
-}
-
-.slider .xi-angle-left.xi-2x{
-    position: absolute;
-    top: 0px;
-    left: 665px;
-
-}
-
-.slider i{
-    padding-top: 124px;
-    color: #74AFEB;
-}
-
-.slider .slides .slide{
-    display: flex;
-    gap: 5px;
-}
-
-.slider .slides .slide .text_box{
-    padding-top: 110px;
     font-size: 20px;
-    line-height: 1.5;
-    letter-spacing: 0.1px;
-    text-align: right;
     color: #fff;
+    margin-right: 53px;
+    /* cursor: pointer; */
 }
 
-.slider .slides .slide .text_box .btn{
-    width: 56px;
-    height: 22px;
-    background-color: #27629E;
-    font-size: 14px;
-    border-radius: 11px;
-    margin-left: auto;
-    margin-top: 20px;
+.hero .slides .slide p{
+    text-align: right;
+    padding-right: 5px;
+    width: 390px;
 }
 
-.slider .slides .slide .text_box{
-
+.hero .slider .slides a{
+    display: flex;
+    height: 100%;
 }
 
-.slider .slides img{
+.hero .slider .slides img{
     width: 100px;
-    padding-top: 98px;
+    /* margin-left: 10px; */
 }
+
+
+/* 컨트롤 버튼 */
+.hero .btn.pause{
+    display: flex;
+    height: 22px;
+    width: 56px;
+    border-radius: 11px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero .btn.pause {
+    position: absolute;
+    top: 77px;
+    right: 153px;
+}
+
+.hero .btn.pause p{
+    font-size: 12px;
+    line-height: 14px;
+    margin-left: 10px;
+}
+
+/* after을 이용, 핵심은 z-인덱스 "-1" */
+/* .hero .btn.pause i{
+    position: relative;
+    margin-left: auto;
+    margin-right: 6px;
+    border-radius: 100%;
+    font-size: 10px;
+    z-index: 1;
+}
+
+.hero .btn.pause i::after{
+    content: '';
+    width: 14px;
+    height: 14px;
+    border-radius: 99px;
+    background-color: #93b0d0;
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    z-index: -1;
+}*/
+
+/* 플렉스가 훨씬 더 편한듯 ㅇㅅㅇ,, */
+.hero .btn.pause i{
+    height: 14px;
+    width: 14px;
+    background-color: #93b0d0;
+    border-radius: 100%;
+    font-size: 10px;
+    margin-right: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+}
+
+.hero .btn.slide i{
+    position: absolute;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+
+.hero .btn.slide .left{
+    top: 27px;
+    left: -40px;    
+}
+
+.hero .btn.slide .right{
+    top: 27px;
+    right: 20px;
+}
+
+/*   */
+
