@@ -1,0 +1,96 @@
+/* ## footer ## */
+
+.footer{
+    width: 100%;
+    height: 270px;
+    background-color: #2A292E;
+    color: #fff;
+}
+
+.footer p{
+    font-size: 13px;
+    opacity: 0.6;
+}
+
+.footer > .container{
+    display: flex;
+    padding-top: 35px;
+    height: 270px;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.footer > .container > div {
+    padding-bottom: auto;
+}
+
+/* foooter -> left */
+.footer .left{
+    margin: 17px 0;
+}
+
+.footer .left p{
+    margin-left: 10px;
+    line-height: 1.5;
+}
+
+.footer .left img{
+    margin-top: 10px;
+    width: 120px;
+}
+
+.footer .left .copyright{
+    padding-top: 30px;
+}
+
+
+/* footer -> middle */
+.footer .middle{
+    margin-top: 15px;
+}
+
+/* footer -> right */
+
+.footer .right{
+    height: 100%;
+    display: flex;
+    gap: 15px;
+}
+
+.footer .right h5{
+    font-size: 14px;
+}
+
+.footer .right > div{
+    height: 100%;
+    display: flex;
+    flex-direction: column;    
+    padding-bottom: 50px;   
+}
+
+/* 와, 씨..... 플렉스 디렉션 바꾸면 저스티파이랑 어라인아이템이랑 반대로 되네 ㅋㅋㅋㅋ*/
+.footer .right > div > div {
+    height: 44px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/* 
+.footer .right > div > div {
+    margin-top: auto;
+} */
+
+
+.footer .right .item{
+    flex: 1;
+}
+
+.footer .right .call_center {
+    /* padding-top: 15px; */
+}
+
+.footer .right .call_number h5{
+    font-size: 25px;
+}

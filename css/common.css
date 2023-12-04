@@ -13,15 +13,13 @@ body{
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 500;
     font-size: 14px;
+    /* height: 100%; */
 }
 
 .container{
     width: 1180px;
     margin: 0 auto;
 }
-
-
-
 
 
 /* hero */
@@ -220,6 +218,7 @@ background-position: 0 0;
     padding: 10px 0;
     text-align: center;
     width: 100%;
+    /* transition: all 1s; */
 }
 
 .lnb li.active{
@@ -314,123 +313,109 @@ background-position: 0 0;
 
 
 
-.section{}
-.section{}
-.section{}
-.section{}
-.section{}
-.section{}
-.section{}
-.section{}
-.section{}
-.section{}
-.section{}
 
 
 
 
+/*  ## info_wrap */
+.info_wrap{
+    background-color: #F3F4F6;
+}
+
+.info_wrap > .container{
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* info_text */
+.info_wrap .info_text{
+    position: relative;
+    height: 300px;
+    width: 580px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 70px;
+    margin-bottom: 120px;
+}
+
+.info_wrap .info_text > div{
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+.info_wrap .info_text .title{
+    padding: 23px 30px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.info_wrap .info_text .text{
+    line-height: 2.5;
+    font-size: 16px;
+    color: #616B76;
+}
+
+.info_wrap .info_text .view_more{
+    position: absolute;
+    font-size: 14px;
+    font-weight: 700;
+    top: 30px;
+    right: 20px;
+}
+
+/* info_ars */
+.info_ars{
+    display: flex;
+    flex-direction: column;
+    height: 210px;
+    width: 280px;
+    gap: 60px;
+    margin-top: 100px;
+}
+
+.info_ars .title{
+    font-size: 16px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.info_ars .text{
+    font-size: 13px;
+    line-height: 2.5;
+}
+
+.info_ars .text span{
+    display: inline-block;
+    color: #fff;
+    background-color: #222;
+    text-align: center;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    border-radius: 5px;
+}
 
 
+.info_ars .emergency{
+    font-size: 16px;
+    font-weight: 900;
+}
 
-/* .footer .f_gnb{
+.info_ars .emergency h3{
+    font-size: 42px;
+    color: #2b7fe1;
+}
+
+
+.f_gnb{
+    position: absolute;
+    bottom: 0px;
+    left: 0;
     height: 45px;
     background-color: #fff;
     color: #111;
-} */
-
-/* ## footer ## */
-
-.footer{
-    width: 100%;
-    height: 270px;
-    background-color: #2A292E;
-    color: #fff;
 }
 
-.footer p{
-    font-size: 13px;
-    opacity: 0.6;
-}
-
-.footer > .container{
-    display: flex;
-    padding-top: 35px;
-    height: 270px;
-    justify-content: space-between;
-    gap: 50px;
-}
-
-.footer > .container > div {
-    padding-bottom: auto;
-}
-
-/* foooter -> left */
-.footer .left{
-    margin: 17px 0;
-}
-
-.footer .left p{
-    margin-left: 10px;
-    line-height: 1.5;
-}
-
-.footer .left img{
-    margin-top: 10px;
-    width: 120px;
-}
-
-.footer .left .copyright{
-    padding-top: 30px;
-}
-
-
-/* footer -> middle */
-.footer .middle{
-    margin-top: 15px;
-}
-
-/* footer -> right */
-
-.footer .right{
-    height: 100%;
-    display: flex;
-    gap: 15px;
-}
-
-.footer .right h5{
-    font-size: 14px;
-}
-
-.footer .right > div{
-    height: 100%;
-    display: flex;
-    flex-direction: column;    
-    padding-bottom: 50px;   
-}
-
-/* 와, 씨..... 플렉스 디렉션 바꾸면 저스티파이랑 어라인아이템이랑 반대로 되네 ㅋㅋㅋㅋ*/
-.footer .right > div > div {
-    height: 44px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-}
-
-/* 
-.footer .right > div > div {
-    margin-top: auto;
-} */
-
-
-.footer .right .item{
-    flex: 1;
-}
-
-.footer .right .call_center {
-    /* padding-top: 15px; */
-}
-
-.footer .right .call_number h5{
-    font-size: 25px;
-}
+/* ##footer */
+/* footer.css */
