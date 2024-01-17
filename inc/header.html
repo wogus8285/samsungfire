@@ -1,42 +1,43 @@
 <div class="header">
-    <div class="top">
-        <div class="container">
-            <ul class="top_menu">
-                <li><a href="#">인증센터</a></li>
-                <li><a href="#">공시실</a></li>
-                <li><a href="#">삼성화재홈페이지</a></li>
-            </ul>
-            <a href="#" class="btn">로그인</a>    
-        </div>
-    </div>
-
+  <div class="top">
     <div class="container">
-        <div class="nav">
-            <div class="logo"><a href="#"><img src="../image/logo.png" alt=""></a></div>
-
-            <ul class="gnb">
-                <li><a href="#">계약관리</a></li>
-                <li><a href="#">보상청구</a></li>
-                <li><a href="#">보험상품/대출</a></li>
-                <li><a href="#">이용안내</a></li>
-                <li><a href="#">혜택/서비스</a></li>
-            </ul>
-
-            <div class="icon">
-                <a href="#"><i class="xi-cart-o xi-3x"></i></a>
-                <a href="#"><i class="xi-search xi-3x"></i></a>
-            </div>
-        </div>
+      <ul class="top_menu">
+        <li><a href="#">인증센터</a></li>
+        <li><a href="#">공시실</a></li>
+        <li><a href="#">삼성화재홈페이지</a></li>
+      </ul>
+      <a href="#" class="btn">로그인</a>
     </div>
+  </div>
+
+  <div class="container">
+    <div class="nav">
+      <div class="logo">
+        <a href="../pages/main.html"><img src="../image/logo.png" alt="" /></a>
+      </div>
+
+      <ul class="gnb">
+        <li><a href="#">계약관리</a></li>
+        <li><a href="#">보상청구</a></li>
+        <li><a href="#">보험상품/대출</a></li>
+        <li><a href="#">이용안내</a></li>
+        <li><a href="#">혜택/서비스</a></li>
+      </ul>
+
+      <div class="icon">
+        <a href="#"><i class="xi-cart-o xi-3x"></i></a>
+        <a href="#"><i class="xi-search xi-3x"></i></a>
+      </div>
+    </div>
+  </div>
 </div>
 
 <script>
-    const header = document.querySelector('.header')
+  const header = document.querySelector('.header')
 
-    // console.log(header);
-    
-    window.addEventListener('scroll', function(){
-        header.classList.toggle('active', window.scrollY > 100)
-    })
+  // console.log(header);
 
+  window.addEventListener('scroll', function () {
+    header.classList.toggle('active', window.scrollY > 100)
+  })
 </script>
