@@ -1,13 +1,33 @@
 .hero {
-  height: 895px;
-  background: url(../image/event/1/bg_event_wide\ 1.png);
+  height: 1300px;
+  background: url(../image/event/2/hero.jpg);
   background-position: center;
-  background-size: cover;
   object-fit: cover;
   background-repeat: repeat;
   position: relative;
 }
 
+.hero .btn {
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.body .item {
+  display: flex;
+  margin-top: 69px;
+  margin-bottom: 125px;
+  justify-content: center;
+}
+
+.body .btn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 150px;
+}
+
+/* 
 .hero .title {
   display: flex;
   padding-top: 60px;
@@ -47,4 +67,4 @@
   bottom: 80px;
   left: 50%;
   transform: translateX(-50%);
-}
+} */
